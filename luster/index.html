@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Luster Guide</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- Primary Meta Tags -->
+		<title>Arks-Layer</title>
+		<meta name="title" content="PSO2 Luster Guide">
+		<meta name="description" content="A guide dedicated to the Luster class for Phantasy Star Online 2 - NA and JP!">
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://aida-enna.github.io/luster/">
+		<meta property="og:title" content="PSO2 Luster Guide">
+		<meta property="og:description" content="A guide dedicated to the Luster class for Phantasy Star Online 2 - NA and JP!">
+		<meta property="og:image" content="https://aida-enna.github.io/luster/images/titlecard.png">
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://aida-enna.github.io/luster/">
+		<meta property="twitter:title" content="PSO2 Luster Guide">
+		<meta property="twitter:description" content="A guide dedicated to the Luster class for Phantasy Star Online 2 - NA and JP!">
+		<meta property="twitter:image" content="https://aida-enna.github.io/luster/images/titlecard.png">
+		<link rel="shortcut icon" type="image/x-icon" href="images/luster_class.png">
+		<link rel="icon" href="images/luster_class.png" type="images" sizes="32x32"> 
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+		<script src="https://kit.fontawesome.com/6d78549c29.js" crossorigin="anonymous"></script>
+		<link href="css/style.css" rel="stylesheet">
+
+	<body class="introlight">
+
+		<!-- Navigation Menu -->
+			<nav class="navbar bg-dark navbar-dark navbar-expand-lg sticky-top py-0">
+				<div class="div container">
+
+					<a href="https://aida-enna.github.io/luster/" class="navbar-brand"><img src="images/luster_class.png" alt="Luster"> Luster Guide</a>
+
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item"><a href="#basicmechanics" class="nav-link">Luster Mechanics</a></li>
+							<li class="nav-item"><a href="#styles" class="nav-link">Styles</a></li>
+							<li class="nav-item"><a href="#othermechanics" class="nav-link">Other Luster Mechanics</a></li>
+							<li class="nav-item"><a href="#basiccombos" class="nav-link">Basic Combos</a></li>
+							<li class="nav-item"><a href="#otherthings" class="nav-link">Other Information</a></li>
+							<li class="nav-item"><a href="#credits" class="nav-link">Credits</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+		<A HREF="https://www.pixiv.net/en/artworks/70064618"><img src="images/bg3.png" class="w-100" alt=""></A>
+		<center><p><i>"No one wants to use <span data-translate="Gunblades">Gunblades</span>? Fine! I'll make my own class, with blackjack and hookers! Who is my trainer? Why is my icon made in MS Paint? Who cares? <span data-translate="Cofy">Cofy</span> said it was fine, so you can suck it."</i></p></center>
+		<!-- Main Text -->
+		<div class="container mt-5">
+			<div class="row justify-content-center">
+				<div class="alert alert-info alert-dismissible fade show" role="alert">PSO2JP players can change to the JP version of the guide by clicking here: <button onclick="change_lang()" data-translate="translate">Switch to JP Terms</button>
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<div class="col-lg-7 mb-4 mx-auto">
+					<!--				
+					8888  888b      88  888888888888  88888888ba     ,ad8888ba,    
+					8888  8888b     88       88       88      "8b   d8"'    `"8b   
+					8888  88 `8b    88       88       88      ,8P  d8'        `8b  
+					8888  88  `8b   88       88       88aaaaaa8P'  88          88  
+					8888  88   `8b  88       88       88""""88'    88          88  
+					8888  88    `8b 88       88       88    `8b    Y8,        ,8P  
+					8888  88     `8888       88       88     `8b    Y8a.    .a8P   
+					8888  88      `888       88       88      `8b    `"Y8888Y"'  
+					-->
+					<div class="mr-auto w-50">
+						<h3 class="boldtitlelarge mr-auto"><a id="intro"></a>Introduction to Luster</h3>
+					</div><br>
+					<p><img src="images/luster_class.png"> Luster is the fourth and final <span data-translate="scion">scion</span> class released for PSO2. It requires you to have two classes at 75+, and unlocks the ability to become a Luster on any character. Like Phantom and Etoile, it cannot take a subclass, but it can be used as a subclass. It uses <img src="images/gunblade.png"><span data-translate="Gunblades">Gunblades</span>, <img src="images/gunblade.png"><span data-translate="Gunblades">Gunblades</span>, and <img src="images/gunblade.png"><span data-translate="Gunblades">Gunblades</span> as it's main weapons (Noticing a pattern?). It is an inherently agressive class with it's own unique mechanic, and a bit complicated and different from the other classes. Because of this, we'll need to do a bit of explaining first.</p>
+					
+					<p>There are three different "styles" for Luster, named after the compound techniques. Each style bring various differences including the color/element of the attacks, your focus meter, the actions you can use, and more. The style you use depends on what element the <span data-translate="Gunblade">Gunblade</span> you have equipped is.<br><br>
+					<img src="images/LU_Fomel.png" width="32" height="32"><b>Fomel Style (Fire/Dark):</b> This style is designed for bosses and single targets. <br>
+					<img src="images/LU_Baran.png" width="32" height="32"><b>Baran Style (Light/Ice):</b> This style is designed for defense. <br>
+					<img src="images/LU_Zandi.png" width="32" height="32"><b>Zandi Style (Wind/Lightning):</b> This style is designed for AOE and mobbing.<br>
+					<br>
+					If you have trouble remembering which is which:<br>
+					<b>Fo</b>mel (<b>Fo</b>ie, Fire tech)<br>
+					<b>Ba</b>ran (<b>Ba</b>rta, Ice tech)<br>
+					<b>Zan</b>di (<b>Zan</b>verse, Wind tech)<br>
+					<br>
+					If you only have one <span data-translate="Gunblade">Gunblade</span> and literally can't get any others, Fomel would be the one style you use because it's DPS is higher then the others. <i>However</i>, it is highly recommended to do 3 styles, as each has their own unique uses.<br>
+					<p>Before we take a look at the styles, we need to go over some terminology for Luster.</p>
+					<!--
+					88b           d88  88888888888  ,ad8888ba,   88        88         db         888b      88  88    ,ad8888ba,    ad88888ba   
+					888b         d888  88          d8"'    `"8b  88        88        d88b        8888b     88  88   d8"'    `"8b  d8"     "8b  
+					88`8b       d8'88  88         d8'            88        88       d8'`8b       88 `8b    88  88  d8'            Y8,          
+					88 `8b     d8' 88  88aaaaa    88             88aaaaaaaa88      d8'  `8b      88  `8b   88  88  88             `Y8aaaaa,    
+					88  `8b   d8'  88  88"""""    88             88""""""""88     d8YaaaaY8b     88   `8b  88  88  88               `"""""8b,  
+					88   `8b d8'   88  88         Y8,            88        88    d8""""""""8b    88    `8b 88  88  Y8,                    `8b  
+					88    `888'    88  88          Y8a.    .a8P  88        88   d8'        `8b   88     `8888  88   Y8a.    .a8P  Y8a     a8P  
+					88     `8'     88  88888888888  `"Y8888Y"'   88        88  d8'          `8b  88      `888  88    `"Y8888Y"'    "Y88888P"  
+					-->
+					<div class="mr-auto w-50">
+						<h3 class="boldtitlelarge mr-auto"><a id="basicmechanics"></a>Basic Luster Mechanics</span></h3>
+					</div><br>
+					<b>Voltage:</b> Voltage is an additional gauge for Luster, next to the <span data-translate="focus">focus</span> gauge. Every time you hit an enemy (including mag attacks), the meter rises. As it rises, it increases both the damage you deal and your defense against incoming damage (0.02% damage increase per voltage, 0.04% damage reduction per voltage). As your voltage increases, various skills can activate from it. If you don't hit anything for 5 seconds, you lose <b>all Voltage</b>.<br>
+					<b>Move Art:</b> A Move Art is when you use a PA while holding a direction (Forward/Back/Left/Right or any point inbetween).<br>
+					<b>Stay Art:</b> A Stay Art is when you use a PA without holding any direction.<br>
+					<b>Enhance Art:</b> When you use a PA and hold the PA button, you will do another (new) part of the attack. This is called an Enhance Art. It consumes 1 <span data-translate="focus">focus</span> gauge.<br>
+					<b>Neutral Element:</b> When you doubletap the Weapon Action button, you switch to Purge Style (A neutral element style) for 10 seconds. While in this state, you gain no quirks (unlike the other styles) except for firing your <span data-translate="Gunblade">Gunblade</span> rapidly when you hold the Weapon Action button. This consumes both gear and PP, as if you were pretending to be a bad Phantom player (This is a callout post). If you hit an enemy with this skill, you gain 3 gear back instantly. You can take the "Non-Element" skill from the Luster tree to make this effect permanent in exchange for increasing your ranged attack by 70%.<br>
+					<b>Quick Slash:</b> After using a PA (or Slash Fall/Slash Rise, we'll talk about those in the next section), you may notice a horizontal line glowing on your character. Pressing the normal attack button while it is visible will do a special attack based on the direction you're holding (or lack thereof). Holding a direction will make you lunge in that direction while slashing. Not holding a direction will execute a ranged multiple hit attack.<br>
+					<b>Quick Shoot:</b> After doing your fourth normal attack (unlocked via the skill tree), you can tap the Weapon Action button to do different things, depending on your chosen style. There are also ways to do it unique to each style, which we'll go over a bit later.<br>
+					<b>Photon Cluster:</b> An object that shows up near your body and gives you different beneficial effects. It's also activated differently in each style.<br>
+					<p>
+					
+					<p>Each style has the same basic normal attacks (a fourth normal attack is unlocked via the skill tree) and PAs (with the exception of a ranged attack being added to normal attacks for the Zandi style), though colored in different auras (and using different elements, duh!). If you doubletap the dodge (Doubledodging? Is that a word? It is now.) button, some different things will happen if you're locked onto an enemy. Doubledodging forward will slash the air repeatedly around you, doubledodging backwards will shoot homing lasers. Doubledodging to either side will do the Apex Legends slide while shooting photon bullets.</p>
+					
+					<p>Tapping the weapon action is also the same in each style, it simply shoots or dodges and shoots if you're holding a direction. Doubletapping the Weapon Action button will execute the Purge Style skill and put you into the Non-Element state. Additionally, jumping after an attack while holding a direction will use Slash Rise, a 10 PP costing attack that moves you up a bit. Jumping after an attack while not holding a direction will use Slash Fall, which slams you into the ground (and is weaker if you're already on the ground). For both of these, if you hold jump, you will cast an uncharged Zanverse at the end (or Megiverse if your HP is under 75%!).</p>
+					<!-- Normal shit here-->
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/KxIlogyGlFQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					
+					<p>Let's take a look at the different styles, along with what they do!</p><br>
+					<div class="mr-auto w-50">
+						<h3 class="boldtitlelarge mr-auto"><a id="styles"></a>Styles</span></h3>
+					</div><br>
+					
+					<!-- Video showing different styles here -->
+					<p><img src="images/LU_Fomel.png" width="32" height="32"><b>Fomel Style (Fire/Dark)</b>: Voltage charges faster by using the skills mentioned here. Holding the normal attack button summons 3 Photon Spears that will damage enemies and cast Jellen (attack debuff) on them when you use Photon Arts (up to 3 times). Very useful if you have Phrase Decay (enemy takes more damage if they have Jellen on them). Holding the Weapon Action button will stab the enemy repeatedly ala Stinger from DMC and follow it up with a final thrust. The damage, duration, and distance of the final thrust is dependent on how long you hold it and how much <span data-translate="focus">focus</span> you use.</p>
+					
+					<p>Fomel style's Photon Cluster is activated by doing two different Photon Arts back to back, but doing the second one the moment the <span data-translate="Perfect Attack">Perfect Attack</span> window appears. This surrounds you with... <strike>things</strike> <strike>blades</strike> <strike>photons</strike> bits from Gundam that do damage in an AOE and restore 5 PP with each hit.</p>
+					
+					<p>Fomel's Quick Shoot is activated by doing an Enhance Art, then another one (holding the button again to consume another <span data-translate="focus">focus</span> gauge), then pressing the Weapon Action after a short delay. It jumps you towards your enemy while slamming them with your Gunblade, like the Stinger move from Devil May Cry.</p>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Ol3V9_CmFvA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					
+					<img src="images/LU_Baran.png" width="32" height="32"><b>Baran Style (Light/Ice)</b>: Voltage charges faster by using Stay Arts in this style. Normal attacks (aside from step attacks) and Stay Arts have guard frames at the start. Holding the normal attack button generates an AOE that deals damage with paper airplanes. Holding the Weapon Action button will charge a photon bullet that does a large amount of damage. Holding down the Weapon Action button will do more damage, consuming more <span data-translate="focus">focus</span> in the process.</p>
+					
+					<p>Baran style's Photon Cluster is activated by performing a Just Guard (guarding the moment an attack is about to hit you). Keep in mind that this means attacking using a Normal Attack or Stay Arts, since those are how this class guards. This surrounds you with metal mario shield bits from Gundam 00 and decreases your damage taken by 25%.</p>
+					
+					<p>Baran's Quick Shoot is activated by doing a counter while holding forwards or backwards, then using your Weapon Action after a slight delay. It fires a very quick shot of ice that has a long range.</p>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/SX2Q8wjfsdw" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					
+					<img src="images/LU_Zandi.png" width="32" height="32"><b>Zandi Style (Wind/Lightning)</b>: <p>Voltage charges faster by using Move Arts. Hold the Normal Attack button to generate an AOE pull-in (a la Zondeel). Holding the Weapon Action button casts an AOE field that damages all enemies in it on release. Holding down the Weapon Action button will make it bigger (up to 2 times), consuming more <span data-translate="focus">focus</span> in the process.</p>
+					
+					<p>Zandi style's Photon Cluster is activated by dodging an attack with a sideways dodge or with the Weapon Action. This, like redbull, gives you wings and lets you fire bolts from the space above you after hitting an enemy with a PA, dealing damage and restoring 5 PP.</p>
+					
+					<p>Zandi's Quick Shoot is activated by doing a counter while holding left or right, then using your Weapon Action almost immediately. It shoots a bolt of lightning that hits every enemy in your small AOE range.</p>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/kE5pEtbY73w" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					<br>
+					<!--
+					88b           d88  88888888888  ,ad8888ba,   88        88         db         888b      88  88    ,ad8888ba,    ad88888ba   
+					888b         d888  88          d8"'    `"8b  88        88        d88b        8888b     88  88   d8"'    `"8b  d8"     "8b  
+					88`8b       d8'88  88         d8'            88        88       d8'`8b       88 `8b    88  88  d8'            Y8,          
+					88 `8b     d8' 88  88aaaaa    88             88aaaaaaaa88      d8'  `8b      88  `8b   88  88  88             `Y8aaaaa,    
+					88  `8b   d8'  88  88"""""    88             88""""""""88     d8YaaaaY8b     88   `8b  88  88  88               `"""""8b,  
+					88   `8b d8'   88  88         Y8,            88        88    d8""""""""8b    88    `8b 88  88  Y8,                    `8b  
+					88    `888'    88  88          Y8a.    .a8P  88        88   d8'        `8b   88     `8888  88   Y8a.    .a8P  Y8a     a8P  
+					88     `8'     88  88888888888  `"Y8888Y"'   88        88  d8'          `8b  88      `888  88    `"Y8888Y"'    "Y88888P"  
+					-->
+					
+					<div class="mr-auto w-50">
+						<h3 class="boldtitlelarge mr-auto"><a id="othermechanics"></a>Other Luster Mechanics</span></h3>
+					</div>
+					<b>Luster Time:</b> This activates your Photon Cluster, gives you a 30% damage reduction on incoming damage, and 200% PP gain for a limited time. It also does burst damage on activation, and restores all your gear if it damages an enemy. Press it again to do a powerful <strike>Hero</strike> Luster Time Finish, which will give you your Photon Cluster again.<br>
+					<b>Luster Counter:</b> Doing a step attack (dodge + normal attack) becomes a counterattack (and a lot stronger!) if you dodge at the last minute. If you're familiar with Hero Counter, this is exactly the same thing.<br>
+					<b>Luster Step Guard:</b> While locked onto an enemy, dodge an attack while holding forwards or backwards to perform a Step Guard, shooting homing lasers at the enemy.<br>
+					<br>
+					<!--
+					  ,ad8888ba,    ,ad8888ba,    88b           d88  88888888ba     ,ad8888ba,     ad88888ba   
+					 d8"'    `"8b  d8"'    `"8b   888b         d888  88      "8b   d8"'    `"8b   d8"     "8b  
+					d8'           d8'        `8b  88`8b       d8'88  88      ,8P  d8'        `8b  Y8,          
+					88            88          88  88 `8b     d8' 88  88aaaaaa8P'  88          88  `Y8aaaaa,    
+					88            88          88  88  `8b   d8'  88  88""""""8b,  88          88    `"""""8b,  
+					Y8,           Y8,        ,8P  88   `8b d8'   88  88      `8b  Y8,        ,8P          `8b  
+					 Y8a.    .a8P  Y8a.    .a8P   88    `888'    88  88      a8P   Y8a.    .a8P   Y8a     a8P  
+					  `"Y8888Y"'    `"Y8888Y"'    88     `8'     88  88888888P"     `"Y8888Y"'     "Y88888P"   
+					-->
+					<div class="mr-auto w-50">
+						<h3 class="boldtitlelarge mr-auto"><a id="basiccombos"></a>Basic Combos</h3>
+					</div><br>
+					<u><h4>Fomel Style</h4></u>
+					<u><h5>Tryhard Combo</h5></u>
+					<p><img src="images/BrandExtension.png">Brand Extension -> Quick Slash (Stay Art) -> Enhanced Normal Attack -> <img src="images/Flechette.png">Flechette -> <img src="images/Flechette.png">Enhanced Flechette -> <img src="images/Flechette.png">Enhanced Flechette -> Quick Shoot -> Backwards Quick Slash -> Enhanced Normal -> Repeat</p>
+					<p>Holy crap. If you want to main Luster and feel very confident in your timing of things, feel free to use this combo. It is <b>very strict</b> in timings. However, this combo is essentially infinite PP and Gear Rotation. You can also swap in Brand Extension instead of Flechette if you want less strict timings.
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/xVewco2-DQM" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>					
+					<u><h5>Keep-Your-Sanity Combo</h5></u>
+					<p><img src="images/Flechette.png">Flechette (Stay Art, Enhanced) x3 -> Quick Slash (Stay Art) -> Enhanced Normal -> 4 Normal Attacks -> Quick Shoot -> Repeat</p>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/RffGTqfZzWA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					<u><h4>Baran Style</h4></u>
+					<p>Since most things don't generate gear, the combo for Baran is just Enhanced Normal -> 4 Normal Attacks -> Quick Shoot. You can also do the Fletchette combo from Fomel.</p>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/vt1kDcOLAGc" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					<u><h4>Zandi Style</h4></u>
+					<u><h5>Single Target</h5></u>
+					<p><img src="images/Flechette.png">Flechette (Move Art) -> <img src="images/BrandExtension.png">Brand Extension (Move Art) -> <img src="images/SlugScatter.png">Slug Scatter (Move Art) -> <img src="images/HollowPoint.png">Enhanced Hollow Point (Move Art) -> Repeat</p>
+					<p>You can also freely swap <img src="images/SlugScatter.png">Slug Scatter and <img src="images/HollowPoint.png">Hollow Point in the above combo.
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/rJb9f6g5no0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					<u><h5>Mobbing</h5></u>
+					<p>Enhanced Normal -> <img src="images/BrandExtension.png">Brand Extension (Move Art) -> Quick Slash (Stay Art) -> Enhanced Normal -> <img src="images/BrandExtension.png">Brand Extension (Move Art) -> <img src="images/BrandExtension.png">Enhanced Brand Extension (Move Art) x2 -> Quick Slash (Move backwards) -> Repeat</p>
+					<p>You can also use <img src="images/SlugScatter.png">Slug Scatter instead of Brand Extension for this combo.</p>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/xTJNIv3wm1M" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+
+					<!--
+					  ,ad8888ba,  888888888888  88        88  88888888888  88888888ba      88  888b      88  88888888888  ,ad8888ba,    
+					 d8"'    `"8b      88       88        88  88           88      "8b     88  8888b     88  88          d8"'    `"8b   
+					d8'        `8b     88       88        88  88           88      ,8P     88  88 `8b    88  88         d8'        `8b  
+					88          88     88       88aaaaaaaa88  88aaaaa      88aaaaaa8P'     88  88  `8b   88  88aaaaa    88          88  
+					88          88     88       88""""""""88  88"""""      88""""88'       88  88   `8b  88  88"""""    88          88  
+					Y8,        ,8P     88       88        88  88           88    `8b       88  88    `8b 88  88         Y8,        ,8P  
+					 Y8a.    .a8P      88       88        88  88           88     `8b      88  88     `8888  88          Y8a.    .a8P   
+					  `"Y8888Y"'       88       88        88  88888888888  88      `8b     88  88      `888  88           `"Y8888Y"'   
+					-->
+					<div class="mr-auto w-50">
+					<h3 class="boldtitlelarge mr-auto"><a id="otherthings"></a>Other Information</h3>
+					</div><br>
+					<h4>Skill Tree/Skills</h4>
+					<p>A typical Luster skill tree <a href="https://arks-layer.com/skillsim/skillcalc.php?20dIbRIobRIobRIobRIobRIobRIobRIobRIobRIobRIobRIobRIobRIo0jdodBdo006dBdBIb00000006dodA00fdAdBIo000000jdoIbIb00dAdBIo000000jdoIb00dBdBIb000000dB006dBdBIb0000008dBIn00jdndBdB0000009bIoIo07bfdBdB000000doIbIo00dBdBIb000000jdB00dndBdB000006dBIo9b8dAIoIb000006dAdBdodAIoibdndn0000000fdAdBdodBindnib0000000fdBdBeBdBdBmodKJedKJbdKdDdBdBdBdBdBdBdBdBIb000000000">can be found here</A>. It's a base tree - Feel free to change the points in Voltage Reset Heal and Complete Rest as you want.. Remember that percentage multipliers are always better than straight additions, so a 5% increase to something will almost always be better than doing +5 to it.</p>
+					<h4>Rings</h4>
+					<h5>Left Rings</h5>
+					<ul>
+					<li><img src="images/64px-UIItemNearbyAutoTarget.png" width="32" height="32"><b><span data-translate="Mate Maniac">Mate Maniac</span></b>: Speeds up the consumption animation of -mate items.
+					<li><img src="images/64px-UIItemAtomizerFanatic.png" width="32" height="32"><b><span data-translate="Atomizer Fanatic">Atomizer Fanatic</span></b>: Speeds up the consumption animation of Moon/Sol/Star Atomizers and increases their recovery rate.
+					<li><img src="images/64px-UIItemQuickIllusion.png" width="32" height="32"><b><span data-translate="Party Toughness">Party Toughness</span></b>: Reduces damage taken based on the number of players in your Party. Does nothing if you're solo.
+					<li><img src="images/64px-UIItemTimeAfterTimePreserve.png" width="32" height="32"><b><span data-translate="Leaping Dodge">Leaping Dodge</span></b>: Gives you a active skill that lets you jump super high. 
+					<li><img src="images/64px-UIItemQuickIllusion.png" width="32" height="32"><b><span data-translate="Mag Excitement">Mag Excitement</span></b>: Increases the power of your Mag's Auto Action and reduces its cooldown.
+					</ul>
+					<p>You can slot 3 of these into units, then just wear the last one as a normal ring.</p>
+					<h5>Right Rings</h5>
+					<ul>
+					<li><img src="images/64px-UIItemAdrenaline.png" width="32" height="32"><b><span data-translate="Critical Strike">Critical Strike</span> (Combo Ring)</b>: Increases your crit power for all 3 attack stats by 3% and your crit rate for all 3 stats by 20% (at level 20)
+					</ul>
+					<h4>Mag</h4>
+					<p>Your Mag's total attack stats (Melee, Range, and Tech) are added up and then distributed evenly to all three stats - So it doesn't matter which kind of attack mag you're using (as long as it has all it's points in attack!).</p>
+					<h4>Movement skill</h4>
+					<p>Luster can use <img src="images/Flechette.png"><b>Flechette</b> to move rapidly as opposed to just running. Gotta go fast!</p>
+					<div class="mr-auto w-50">
+						<h3 class="boldtitlelarge mr-auto"><a id="credits"></a>Credits</h3>
+					</div>
+						<ul>
+						<li>airoh. for letting me steal their layout for the initial version of this guide
+						<li>Advisors on <A HREF="http://discord.gg/PSO2">Phantasy Star Fleet</a> for advice/information
+						<li>Blue Skies/Lunasaurus/Riko/Yukiexa for teaching me how Luster works and making me a pro
+						<li>LamiaPony on Reddit for their Luster posts and information (Seriously, thank you - A lot of information you wrote was used here!)
+						<li>Arks Visiphone for icons and data
+						<li>Everyone who asked for this guide
+						</ul>
+					<!-- Changelog-->
+					<div class="mr-auto w-50">
+						<h3 class="boldtitlelarge mr-auto"><a id="changelog"></a>Changelog</h3>
+					</div><br>
+						<span class="boldtitlesmall">December 1st, 2020</span><br>
+							All finished! Guide is public! Time to <strike>rest</strike> work on other stuff.<br><br></span>
+						<span class="boldtitlesmall">November 30th, 2020</span><br>
+							Suffer greatly, you must, to master the Luster. Everything is done but basic combos.<br>
+							Trying to finish the guide today so I can make it public \ o /<br><br></span>
+						<span class="boldtitlesmall">November 21st, 2020</span><br>
+							Might as well go all the way, right? The first version of this guide is created today.</span>
+			</div>
+		</div>
+	</div>
+		<!--<div class="space" style="height: 30vh;"></div>-->
+	
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/6d78549c29.js" crossorigin="anonymous"></script>
+		<script src="js/translate.js"></script>
+</html>
