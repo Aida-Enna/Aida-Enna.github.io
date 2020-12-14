@@ -1,0 +1,317 @@
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Phantom Guide</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- Primary Meta Tags -->
+		<title>Arks-Layer</title>
+		<meta name="title" content="PSO2 Phantom Guide">
+		<meta name="description" content="A guide dedicated to the Phantom class for Phantasy Star Online 2 - NA and JP!">
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://aida-enna.github.io/phantom/">
+		<meta property="og:title" content="PSO2 Phantom Guide">
+		<meta property="og:description" content="A guide dedicated to the Phantom class for Phantasy Star Online 2 - NA and JP!">
+		<meta property="og:image" content="https://aida-enna.github.io/phantom/images/titlecard.png">
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://aida-enna.github.io/phantom/">
+		<meta property="twitter:title" content="PSO2 Phantom Guide">
+		<meta property="twitter:description" content="A guide dedicated to the Phantom class for Phantasy Star Online 2 - NA and JP!">
+		<meta property="twitter:image" content="https://aida-enna.github.io/phantom/images/titlecard.png">
+		<link rel="shortcut icon" type="image/x-icon" href="images/phantom_class.png">
+		<link rel="icon" href="images/phantom_class.png" type="images" sizes="32x32"> 
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+		<script src="https://kit.fontawesome.com/6d78549c29.js" crossorigin="anonymous"></script>
+		<link href="css/style.css" rel="stylesheet">
+
+	<body class="introlight">
+
+		<!-- Navigation Menu -->
+			<nav class="navbar bg-dark navbar-dark navbar-expand-lg sticky-top py-0">
+				<div class="div container">
+
+					<a href="https://aida-enna.github.io/phantom/" class="navbar-brand"><img src="images/phantom_class.png" alt="Phantom">Phantom Guide</a>
+
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item"><a href="#phantommechanics" class="nav-link">Phantom Mechanics</a></li>
+							<li class="nav-item"><a href="#basiccombos" class="nav-link">Basic Combos</a></li>
+							<li class="nav-item"><a href="#buildingfocus" class="nav-link">Common Techniques</a></li>
+							<li class="nav-item"><a href="#otherthings" class="nav-link">Other Information</a></li>
+							<li class="nav-item"><a href="#keepinmind" class="nav-link">Gameplay Tips</a></li>
+							<li class="nav-item"><a href="#credits" class="nav-link">Credits</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+		<img src="images/bg3.png" class="w-100" alt="">
+		<center><p><i>"A villain is just a broken hero who tried to change the world for it's own greater good. If Hero is the class of "power"... Phantom is the class of "execution". Phantom exists to accomplish what "justice" cannot..."</i></p></center>
+		<!-- Main Text -->
+		<div class="container mt-5">
+			<div class="row justify-content-center">
+				<div class="alert alert-info alert-dismissible fade show" role="alert">PSO2JP players can change to the JP version of the guide by clicking here: <button onclick="change_lang()" data-translate="translate">Switch to JP Terms</button>
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<div class="col-lg-7 mb-4 mx-auto">
+					<!--				
+					 ██▓ ███▄    █ ▄▄▄█████▓ ██▀███   ▒█████  ▓█████▄  █    ██  ▄████▄  ▄▄▄█████▓ ██▓ ▒█████   ███▄    █ 
+					▓██▒ ██ ▀█   █ ▓  ██▒ ▓▒▓██ ▒ ██▒▒██▒  ██▒▒██▀ ██▌ ██  ▓██▒▒██▀ ▀█  ▓  ██▒ ▓▒▓██▒▒██▒  ██▒ ██ ▀█   █ 
+					▒██▒▓██  ▀█ ██▒▒ ▓██░ ▒░▓██ ░▄█ ▒▒██░  ██▒░██   █▌▓██  ▒██░▒▓█    ▄ ▒ ▓██░ ▒░▒██▒▒██░  ██▒▓██  ▀█ ██▒
+					░██░▓██▒  ▐▌██▒░ ▓██▓ ░ ▒██▀▀█▄  ▒██   ██░░▓█▄   ▌▓▓█  ░██░▒▓▓▄ ▄██▒░ ▓██▓ ░ ░██░▒██   ██░▓██▒  ▐▌██▒
+					░██░▒██░   ▓██░  ▒██▒ ░ ░██▓ ▒██▒░ ████▓▒░░▒████▓ ▒▒█████▓ ▒ ▓███▀ ░  ▒██▒ ░ ░██░░ ████▓▒░▒██░   ▓██░
+					░▓  ░ ▒░   ▒ ▒   ▒ ░░   ░ ▒▓ ░▒▓░░ ▒░▒░▒░  ▒▒▓  ▒ ░▒▓▒ ▒ ▒ ░ ░▒ ▒  ░  ▒ ░░   ░▓  ░ ▒░▒░▒░ ░ ▒░   ▒ ▒ 
+					 ▒ ░░ ░░   ░ ▒░    ░      ░▒ ░ ▒░  ░ ▒ ▒░  ░ ▒  ▒ ░░▒░ ░ ░   ░  ▒       ░     ▒ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
+					 ▒ ░   ░   ░ ░   ░        ░░   ░ ░ ░ ░ ▒   ░ ░  ░  ░░░ ░ ░ ░          ░       ▒ ░░ ░ ░ ▒     ░   ░ ░ 
+					 ░           ░             ░         ░ ░     ░       ░     ░ ░                ░      ░ ░           ░ 
+															   ░               ░                                         
+					-->
+					<div class="mr-auto w-50">
+						<h3 class="boldtitlelarge mr-auto"><a id="intro"></a>Introduction to Phantom</h3>
+					</div><br>
+					<p><img src="images/phantom_class.png">Phantom is the second <span data-translate="scion">scion</span> class released for PSO2. It requires you to have two classes at 75+, and unlocks the ability to become a Phantom on any character. It is a <i>tech-based</i> class. Like Hero, it cannot take a subclass, but it can be used as a subclass. It uses Rifles, Katanas, and Rods (Yes, those scythe looking weapons are Rods) as it's main weapons. Please keep in mind that, unlike Hero, you don't need to swap weapons to build a gauge. You can stick with one weapon if you want. It's recommended you build a Rod-based Phantom, although Rifle and Katana Phantom builds can do just fine too, with practice!</p>
+					
+					<p>If the Hero class is a class made up of heroes and justice, the Phantom class is made up of villains - Those who use the dark and forbidden powers. Similar to Hero, Phantom uses existing weapons in different ways, as seen below:</p>
+					<br>
+					<img src="images/rifle.png"><b>Rifle</b>: Gone are the days of emptying your clip - Rifle shots are single "sniper" type shots now. To make up for it, they do much more damage with each shot. Your weapon action will send out bits that can attack while you dodge or attack. Charging your weapon action fires a strong shot.
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/TmHuSQ8ngbk" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					<img src="images/katana.png"><b>Katana</b>: While everyone else was goofing off, you were studying the blade - and it shows! Aside from unique animations, Katana largely plays the same. Your weapon action is a ranged slash, which can be charged for more damage.
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/iqH7PZvaVzk" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					<img src="images/rod.png"><b>Rod</b>: Smack them with the pointy end! Rods now do good damage when used as a melee weapon, so you can do damage <i>while</i> regaining PP. However, since Phantom is a tech class, you should be mainly casting techs with your Rod. After each casted tech, you'll do either a short or long slash with your rod (depending on the tech), which gives you 6 PP if it connects. By keeping the correct distance for each tech, you can keep attacking (while regaining PP) a lot longer than you would otherwise. Using the weapon action shoots a small laser at the enemy, and charging the weapon action the weapon action does a ranged slash with it.
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/kE6pUgU5caM" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					<br>
+					<br>
+					<!--
+					 ███▄ ▄███▓▓█████  ▄████▄   ██░ ██  ▄▄▄       ███▄    █  ██▓ ▄████▄    ██████ 
+					▓██▒▀█▀ ██▒▓█   ▀ ▒██▀ ▀█  ▓██░ ██▒▒████▄     ██ ▀█   █ ▓██▒▒██▀ ▀█  ▒██    ▒ 
+					▓██    ▓██░▒███   ▒▓█    ▄ ▒██▀▀██░▒██  ▀█▄  ▓██  ▀█ ██▒▒██▒▒▓█    ▄ ░ ▓██▄   
+					▒██    ▒██ ▒▓█  ▄ ▒▓▓▄ ▄██▒░▓█ ░██ ░██▄▄▄▄██ ▓██▒  ▐▌██▒░██░▒▓▓▄ ▄██▒  ▒   ██▒
+					▒██▒   ░██▒░▒████▒▒ ▓███▀ ░░▓█▒░██▓ ▓█   ▓██▒▒██░   ▓██░░██░▒ ▓███▀ ░▒██████▒▒
+					░ ▒░   ░  ░░░ ▒░ ░░ ░▒ ▒  ░ ▒ ░░▒░▒ ▒▒   ▓▒█░░ ▒░   ▒ ▒ ░▓  ░ ░▒ ▒  ░▒ ▒▓▒ ▒ ░
+					░  ░      ░ ░ ░  ░  ░  ▒    ▒ ░▒░ ░  ▒   ▒▒ ░░ ░░   ░ ▒░ ▒ ░  ░  ▒   ░ ░▒  ░ ░
+					░      ░      ░   ░         ░  ░░ ░  ░   ▒      ░   ░ ░  ▒ ░░        ░  ░  ░  
+						   ░      ░  ░░ ░       ░  ░  ░      ░  ░         ░  ░  ░ ░            ░  
+									  ░                                         ░                 
+					-->
+					<div class="mr-auto w-50">
+						<h3 class="boldtitlelarge mr-auto"><a id="phantommechanics"></a>Phantom Mechanics</span></h3>
+					</div><br>
+					<h4>Markers</h4>
+					<p>Phantom has a few unique mechanics. First off, you have the Phantom Markers. Essentially, as you hit an enemy over and over (with physical attacks, PAs, or Techs), you'll build a "marker" on them, indicated by a blue or purple symbol on whatever part you hit last. Holding and releasing the weapon action (this is called shifting) on any Phantom weapon will "detonate" these markers with various effects, depending on how many hits are put in and other factors. Keep in mind that these markers will disappear if you don't hit the enemy for a few seconds.</p>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/kE6pUgU5caM" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					<p>There are two types of markers - blue and purple. Blue markers recover 30 PP when detonated, along with some nice damage. Purple markers are maxed, do large amounts of damage, and recover 50 PP per. Marker detonations are also <b>A</b>rea <b>O</b>f <b>E</b>ffect attacks, so using zondeel or another pull-in effect when possible before detonating is recommended, but not required.</p>
+					<p>Since you build markers with each hit, there are some ways to build markers very quickly - using Rabarta, for example, will build a blue marker in less than 3 casts, and a purple marker within 4 - 5 casts during Phantom Time. "But Aida, what is Phantom time???" you ask. We'll go over that soon, don't worry!</p>
+					<h4>Shift PAs</h4>
+					<p>When you hit the Weapon Action button and then use a Photon Art, it will cast a "Shift PA" instead. Each PA has a "Shift" version that does different things depending on the PA. You can cast a shift PA by using the Weapon Action and then the PA, or cast the PA and then hit the Weapon Action after to do both the normal PA followed by the shift PA.</p>
+					<p>For example, the Rifle PA Kugelsturm usually shoots a wide shot. However, if you use the weapon action button before it, it changes into a full auto rifle shot for as long as the button is held down.</p>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/7sB9BvcPNlU" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					<h4>Maximum PP</h4>
+					<p>Everyone likes having a lot of PP, but Phantom <i>really</i> likes it. In fact, a skill on the Phantom Tree will actually increase your damage depending on your max PP. Try to have <b>at least 200 PP</b>, at bare minimum. More is recommended!</p>
+					<h4>Counter Shot</h4>
+					<p>When you do a successful counter dodge (dodging at the right time makes a noise just like hero dodging), you've stored a "counter shot". The next time you use a normal attack, step attack, PA, or technique, you'll shoot tracking lasers at the enemy as well. There's a slight delay in shooting the lasers when using a tech, so you can dodge to cancel the shot if you want to save it for uptime.</p>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/XOJo4So1d7c" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					<!--
+					 ▄▄▄▄    ▄▄▄        ██████  ██▓ ▄████▄      ▄████▄   ▒█████   ███▄ ▄███▓ ▄▄▄▄    ▒█████    ██████ 
+					▓█████▄ ▒████▄    ▒██    ▒ ▓██▒▒██▀ ▀█     ▒██▀ ▀█  ▒██▒  ██▒▓██▒▀█▀ ██▒▓█████▄ ▒██▒  ██▒▒██    ▒ 
+					▒██▒ ▄██▒██  ▀█▄  ░ ▓██▄   ▒██▒▒▓█    ▄    ▒▓█    ▄ ▒██░  ██▒▓██    ▓██░▒██▒ ▄██▒██░  ██▒░ ▓██▄   
+					▒██░█▀  ░██▄▄▄▄██   ▒   ██▒░██░▒▓▓▄ ▄██▒   ▒▓▓▄ ▄██▒▒██   ██░▒██    ▒██ ▒██░█▀  ▒██   ██░  ▒   ██▒
+					░▓█  ▀█▓ ▓█   ▓██▒▒██████▒▒░██░▒ ▓███▀ ░   ▒ ▓███▀ ░░ ████▓▒░▒██▒   ░██▒░▓█  ▀█▓░ ████▓▒░▒██████▒▒
+					░▒▓███▀▒ ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░░▓  ░ ░▒ ▒  ░   ░ ░▒ ▒  ░░ ▒░▒░▒░ ░ ▒░   ░  ░░▒▓███▀▒░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░
+					▒░▒   ░   ▒   ▒▒ ░░ ░▒  ░ ░ ▒ ░  ░  ▒        ░  ▒     ░ ▒ ▒░ ░  ░      ░▒░▒   ░   ░ ▒ ▒░ ░ ░▒  ░ ░
+					 ░    ░   ░   ▒   ░  ░  ░   ▒ ░░           ░        ░ ░ ░ ▒  ░      ░    ░    ░ ░ ░ ░ ▒  ░  ░  ░  
+					 ░            ░  ░      ░   ░  ░ ░         ░ ░          ░ ░         ░    ░          ░ ░        ░  
+						  ░                        ░           ░                                  ░                   
+					-->
+					<div class="mr-auto w-50">
+						<h3 class="boldtitlelarge mr-auto"><a id="basiccombos"></a>Basic Combos</h3>
+					</div><br>
+					<h4>Rod Combo (Tech)</h4>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/5AZCSbjlRbo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					<p>Charged Ilgrants -> Charged Ilgrants -> Normal Attack (This will do the third part of the normal attack) -> Repeat</p>
+					<p>This is your "boss that loves to stand still" combo. Because of how the Rod regens PP with it's third normal, you can spam this for quite some time. Feel free to swap Ilgrants for Gizonde, Gimegid, or Samegid (depending on the enemy's element).</p>
+					<br>
+					<h4>Rod Combo (Striking)</h4>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Kh0EJCj1HmA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>					
+					<p><img src="images/SchwarzeKatze.png">Schwarze Katze -> <img src="images/SchwarzeKatze.png">Schwarze Katze -> Normal Attack (This will do the third part of the normal attack) -> Repeat</p>
+					<p>A super efficient combo for enemies weak to striking damage multipliers (Elder/weak points on enemies).</p>
+					<h4>Rod DoT Combo</h4>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/m1PPH6NynxE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>					
+					<p>You should always try to weave in Crafted Ramegid + <img src="images/Voelkermord.png">Shifted <span data-translate="Voelkermord">Massenvernichtungs</span> when possible, as it does <b>D</b>amage <b>O</b>ver <b>T</b>ime (and builds marker!)</p>	
+					<h4>Other Combos</h4>
+					<p>There are no other set combos! You should just spam techs that do the most damage (opposite element) while countering, when possible.
+					
+					<h4>Rifle Combo 1</h4>
+					<!--<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/3J0FjB3ii7E" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>-->
+					<p>Spam any rifle PA (besides Shift Strafe or Vebrechen) twice, then do the 3rd normal attack (This will do the third part of the normal attack) -> Repeat</p>
+					<p>The reasoning being that Shift Strafe is for mobbing or when you know a boss is going to be somewhere, and Vebrechen because it's very situational and niche.</p>
+					<h4>Rifle DoT Combo</h4>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/qBrfaD5mhZw" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					<p><img src="images/Verbrechen.png">Shifted Verbrechen -> <img src="images/Strafe.png">Strafe</p>
+					<p>Try to keep this up whenver you can - Free damage!</p>
+					<h4>Katana Combo</h4>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/DKYJTdtTJco" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>
+					<p><img src="images/Folterzeit.png"><span data-translate="Folterzeit">Folterzeit</span> -> <img src="images/Folterzeit.png"><span data-translate="Folterzeit">Folterzeit</span> -> Normal Attack (This will do the third part of the normal attack) -> Repeat</p>
+					<p>Even with this combo (or any other), PP regen on Katana is pretty bad. If you have more MEL PWR than TEC PWR (You shouldn't!), this combo will be better than the Rod striking combo.</p>
+					<br>
+					<!--
+					 ▄▄▄▄    █    ██  ██▓ ██▓    ▓█████▄  ██▓ ███▄    █   ▄████      ▄████ ▓█████ ▄▄▄       ██▀███  
+					▓█████▄  ██  ▓██▒▓██▒▓██▒    ▒██▀ ██▌▓██▒ ██ ▀█   █  ██▒ ▀█▒    ██▒ ▀█▒▓█   ▀▒████▄    ▓██ ▒ ██▒
+					▒██▒ ▄██▓██  ▒██░▒██▒▒██░    ░██   █▌▒██▒▓██  ▀█ ██▒▒██░▄▄▄░   ▒██░▄▄▄░▒███  ▒██  ▀█▄  ▓██ ░▄█ ▒
+					▒██░█▀  ▓▓█  ░██░░██░▒██░    ░▓█▄   ▌░██░▓██▒  ▐▌██▒░▓█  ██▓   ░▓█  ██▓▒▓█  ▄░██▄▄▄▄██ ▒██▀▀█▄  
+					░▓█  ▀█▓▒▒█████▓ ░██░░██████▒░▒████▓ ░██░▒██░   ▓██░░▒▓███▀▒   ░▒▓███▀▒░▒████▒▓█   ▓██▒░██▓ ▒██▒
+					░▒▓███▀▒░▒▓▒ ▒ ▒ ░▓  ░ ▒░▓  ░ ▒▒▓  ▒ ░▓  ░ ▒░   ▒ ▒  ░▒   ▒     ░▒   ▒ ░░ ▒░ ░▒▒   ▓▒█░░ ▒▓ ░▒▓░
+					▒░▒   ░ ░░▒░ ░ ░  ▒ ░░ ░ ▒  ░ ░ ▒  ▒  ▒ ░░ ░░   ░ ▒░  ░   ░      ░   ░  ░ ░  ░ ▒   ▒▒ ░  ░▒ ░ ▒░
+					 ░    ░  ░░░ ░ ░  ▒ ░  ░ ░    ░ ░  ░  ▒ ░   ░   ░ ░ ░ ░   ░    ░ ░   ░    ░    ░   ▒     ░░   ░ 
+					 ░         ░      ░      ░  ░   ░     ░           ░       ░          ░    ░  ░     ░  ░   ░     
+						  ░                       ░                                                                 
+					-->
+					<div class="mr-auto w-50">
+					<h3 class="boldtitlelarge mr-auto"><a id="buildingfocus"></a>Building <span data-translate="Focus">Focus</span></h3>
+					</div><br>
+					<p>Your main objective as a Phantom (while looking edgy and dark) is to build <span data-translate="focus">focus</span> for your Phantom Time by countering, avoiding damage, and using different skills. There is a gauge at the center of your subpallete, and once it fills you can activate <i>Phantom Time</i> <strike>and become the storm that is approaching</strike>!<br>
+					<!--<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/a" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div><br>-->
+					<p>Phantom Time is similar to Hero Time in that you build it up by attacking and countering. You don't <u>need</u> to use different moves like Hero, though there is a limit and cooldown on how much gear you can gain from each move. Just switch to a different PA or technique if you notice your <span data-translate="focus">focus</span> gauge isn't increasing.</p>
+					
+					<p>Phantom Time lasts 20 seconds, and makes you invincible for the first 5 seconds. Your i-frames (invincibility frames, moments where you can't be hit) become longer, and PP consumption is reduced by 20%. Once you learn the "Phantom Time Mark Plus" skill, you will also build markers much faster during Phantom Time. You can hold 2 charges of Phantom Time.</p>
+					<!--
+					 ▒█████  ▄▄▄█████▓ ██░ ██ ▓█████  ██▀███      ██▓ ███▄    █   █████▒▒█████  
+					▒██▒  ██▒▓  ██▒ ▓▒▓██░ ██▒▓█   ▀ ▓██ ▒ ██▒   ▓██▒ ██ ▀█   █ ▓██   ▒▒██▒  ██▒
+					▒██░  ██▒▒ ▓██░ ▒░▒██▀▀██░▒███   ▓██ ░▄█ ▒   ▒██▒▓██  ▀█ ██▒▒████ ░▒██░  ██▒
+					▒██   ██░░ ▓██▓ ░ ░▓█ ░██ ▒▓█  ▄ ▒██▀▀█▄     ░██░▓██▒  ▐▌██▒░▓█▒  ░▒██   ██░
+					░ ████▓▒░  ▒██▒ ░ ░▓█▒░██▓░▒████▒░██▓ ▒██▒   ░██░▒██░   ▓██░░▒█░   ░ ████▓▒░
+					░ ▒░▒░▒░   ▒ ░░    ▒ ░░▒░▒░░ ▒░ ░░ ▒▓ ░▒▓░   ░▓  ░ ▒░   ▒ ▒  ▒ ░   ░ ▒░▒░▒░ 
+					  ░ ▒ ▒░     ░     ▒ ░▒░ ░ ░ ░  ░  ░▒ ░ ▒░    ▒ ░░ ░░   ░ ▒░ ░       ░ ▒ ▒░ 
+					░ ░ ░ ▒    ░       ░  ░░ ░   ░     ░░   ░     ▒ ░   ░   ░ ░  ░ ░   ░ ░ ░ ▒  
+						░ ░            ░  ░  ░   ░  ░   ░         ░           ░            ░ ░  
+					-->
+					<div class="mr-auto w-50">
+					<h3 class="boldtitlelarge mr-auto"><a id="otherthings"></a>Other Information</h3>
+					</div><br>
+					<h4>Mobbing</h4>
+					<p>Rod: Just spam Gigrants/Rabarta/Ilzan.<br>
+					Rifle: Just spam Kugelsturm or Shifted Nachtangriff.<br>
+					Katana: ???
+					</p>
+					<h4>Skill Tree/Skills</h4>
+					<p>A typical Phantom skill tree can be found by checking <a href="https://arks-layer.com/classbuildsna/">the PSO2NA Class Builds Compilation</a>. Remember that percentage multipliers are always better than straight additions, so a 5% increase to something will almost always be better than doing +5 to it.</p>
+					<h4>Rings</h4>
+					<h5>Left Rings</h5>
+					<ul>
+					<li><img src="images/lockon.png" width="32" height="32"><b><span data-translate="Phantom Lock-On Bomb">Phantom Lock-On Bomb</span></b>: Marker detonation can be very weird at times. This ring lets you detonate your marker on whatever piece of enemy you're locked onto. HIGHLY RECOMMENDED!
+					<li><img src="images/lockon.png" width="32" height="32"><b><span data-translate="Phantom Marker Bomb">Phantom Marker Bomb</span></b>: As said above, marker detonation can be very wonky. This ring, while very situational, can let you detonate where the Phantom marker was originally placed if you cannot lock on to the enemy (Looking at you, Gal Gryphon!). 
+					<li><img src="images/64px-UIItemAtomizerFanatic.png" width="32" height="32"><b><span data-translate="Atomizer Fanatic">Atomizer Fanatic</span></b>: Speeds up the consumption animation of Moon/Sol/Star Atomizers and increases their recovery rate.
+					<li><img src="images/64px-UIItemQuickIllusion.png" width="32" height="32"><b><span data-translate="Party Toughness">Party Toughness</span></b>: Reduces damage taken based on the number of players in your Party. Does nothing if you're solo.
+					<li><img src="images/64px-UIItemTimeAfterTimePreserve.png" width="32" height="32"><b><span data-translate="Leaping Dodge">Leaping Dodge</span></b>: Gives you a active skill that lets you jump super high. 
+					<li><img src="images/64px-UIItemQuickIllusion.png" width="32" height="32"><b><span data-translate="Mag Excitement">Mag Excitement</span></b>: Increases the power of your Mag's Auto Action and reduces its cooldown.
+					</ul>
+					<p>You can slot 3 of these into units, then just wear the last one as a normal ring.</p>
+					<h5>Right Rings</h5>
+					<ul>
+					<!--<li><img src="images/64px-UIItemPerfectionist.png" width="32" height="32"><b><span data-translate="Perfectionist">Perfectionist</span> (Combo Ring)</b>: Gives an extra 3% damage to all 3 attack stats while you remain over 75% healed (at level 20)-->
+					<li><img src="images/64px-UIItemAdrenaline.png" width="32" height="32"><b><span data-translate="Critical Strike">Critical Strike</span> (Combo Ring)</b>: Increases your crit power for all 3 attack stats by 3% and your crit rate for all 3 stats by 20% (at level 20)
+					</ul>
+					<!--<p>This one is really up to you, either one works.</p>-->
+					<h4>Techniques</h4>
+					<p>Phantom can use techniques, and some of them are highly recommended for certain situations.</p>
+					<ul>
+					<li><img src="images/UITechResta.png"><b>Resta</b>: Heals you and the people around you.</li>
+					<li><img src="images/UITechMegiverse.png"><b>Megiverse</b>: Generates a field that heals anyone in it when they inflict damage on enemies.</li>
+					<li><img src="images/UITechAnti.png"><b>Anti</b>: Cures status effects for you and the people around you.</li>
+					<li><img src="images/UITechZondeel.png"><b>Zondeel</b>: Used to pull enemies from the surrounding area into one spot so you can kill them all at once. It's recommended that you also craft this to make its range wider.</li>
+					<li><img src="images/UITechZanverse.png"><b>Zanverse</b>: Generates a field of wind around you and makes you <b>and everyone around you</b> deal bonus wind damage. Free damage!</li>
+					</ul>
+					<h4>Mag</h4>
+					<p>Your Mag's dex stats are distributed evenly to all three stats (Melee, Ranged, Tech) - This means you should <i>ideally</i> have a 200 point DEX mag.</p>
+					<h4>Affixes</h4>
+					<p>If possible, you want to affix Phrase Decay onto your Phantom weapons - It gives an extra 5% damage if Jellen is applied to it.</p>
+					<h4>Movement skills</h4>
+					<p>Like other classes, Phantom has some skills that people can use to move rapidly as opposed to just running. Gotta go fast!</p>
+					<ul>
+					
+					<li><img src="images/Nachtangriff.png"><b>Shifted Nachtangriff (Rifle PA)</b>: <A HREF="https://media3.giphy.com/media/S99fNGdFOjnDyMoVz0/giphy-downsized.gif"><strike>Naruto runs</strike></A> Sprints for as long as the button is held. Not much to explain here, uses PP.</li>
+					<li><img src="images/UITechSafoie.png"><b>Crafted Safoie /C (Technique)</b>: Moves forward but also changes your altitude so you can hit enemies in the air or weak spots above the ground level.</li>
+					<li><img src="images/UITechIlzonde.png"><b>Ilzonde (Technique)</b>: Moves forward and through enemies, does not change altitude.</li>
+					</ul>					
+					<h4>Why do people call Phantom the edgelord class?</h4>
+					<p><A HREF="https://youtu.be/Mw0Wsq1ligE?t=104">https://youtu.be/Mw0Wsq1ligE?t=104</a></p>
+					<!--<div class="mr-auto w-50">
+					<h3 class="boldtitlelarge mr-auto"><a id="keepinmind"></a>Gameplay Tips</h3>
+					</div><br>
+					<ul>
+					<li>Keep an eye out for downtime opportunities/when bosses turn invuln, so you can use TMG Reload to get your PP back fast or precharge a weapon action.</li>
+					<li><b>If there's no <span data-translate="techter">techter</span> in the party</b>, casting a Zanverse before using Hero Time Finish is a good idea (if possible).</li>
+					<li>Remember to take advantage of Hero Time and Hero Refresh, as well as executing Hero Finish while <span data-translate="Heroic Boost">Heroic Boost</span> and Hero Time’s attack bonus are at their peak.</li>
+					<li>Always seek Hero Counter opportunities to deal high damage while evading attacks.</li>
+					</ul>-->
+					<div class="mr-auto w-50">
+						<h3 class="boldtitlelarge mr-auto"><a id="credits"></a>Credits</h3>
+					</div>
+						<ul>
+						<li>airoh. for letting me steal their layout for the initial version of this guide
+						<li>Advisors on <A HREF="http://discord.gg/PSO2">Phantasy Star Fleet</a> for advice/information
+						<li>Enfonius for teaching me how to be a pro Phantom (and their in-depth Phantom guide!)
+						<li>Arks Visiphone for icons and data
+						<li>Shadow The Hedgehog, for being the original Phantom edgelord.
+						</ul>
+					<!-- Changelog-->
+					<div class="mr-auto w-50">
+						<h3 class="boldtitlelarge mr-auto"><a id="changelog"></a>Changelog</h3>
+					</div><br>
+						<span class="boldtitlesmall">November 21st, 2020</span><br>
+							Final revision before going public!<br><br></span>
+						<span class="boldtitlesmall">November 6th, 2020</span><br>
+							Man, I am bad at changelogs. I uh, added a bunch of stuff? Sorry.<br><br></span>
+						<span class="boldtitlesmall">November 1st, 2020</span><br>
+							Initial version, working on it far in advance this time!<br><br></span>
+			</div>
+		</div>
+	</div>
+		<!--<div class="space" style="height: 30vh;"></div>-->
+	
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/6d78549c29.js" crossorigin="anonymous"></script>
+		<script src="js/translate.js"></script>
+</html>
