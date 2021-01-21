@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.column {
+column {
   float: left;
   width: 33.3%;
   padding: 5px;
