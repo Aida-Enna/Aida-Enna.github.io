@@ -1,3 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* general stuff */
 
 
@@ -6,7 +23,8 @@ body, p{
 }
 
 body {
-	background-color: #F0EEEE;
+	background-color: #D0EEEE;
+	margin-bottom: 60px;
 }
 
 .cardbody {
@@ -37,6 +55,17 @@ html {
 
 .nav-item {
 	padding: .4rem;
+}
+
+/* aida please learn how to webdev properly */
+
+.class-image {
+	width: 100%;
+	position: relative;
+}
+
+.link:hover {
+    cursor: pointer;
 }
 
 /* pet images slider */
@@ -128,3 +157,12 @@ html {
 }
 
 
+/* Footer */
+
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background-color: #f5f5f5;
+}
