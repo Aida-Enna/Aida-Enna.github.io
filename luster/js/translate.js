@@ -164,6 +164,66 @@ var dictionary = {
             'na': 'Gunblades',
             'jp': 'Gunslashes',
         },
+		'Non-element': 
+		{
+            'na': 'Elementless',
+            'jp': 'Non-element',
+        },
+		'Move Art': 
+		{
+            'na': 'Mobile Art',
+            'jp': 'Move Art',
+        },
+		'Stay Art': 
+		{
+            'na': 'Stationary Art',
+            'jp': 'Stay Art',
+        },
+		'Slash Rise': 
+		{
+            'na': 'Rising Gunblade',
+            'jp': 'Slash Rise',
+        },
+		'Quick Slash': 
+		{
+            'na': 'Swift Slash',
+            'jp': 'Quick Slash',
+        },
+		'Slash Fall': 
+		{
+            'na': 'Falling Gunblade',
+            'jp': 'Slash Fall',
+        },
+		'Purge Style': 
+		{
+            'na': 'Style Purge',
+            'jp': 'Purge Style',
+        },
+		'Enhance Art': 
+		{
+            'na': 'Enhanced Art',
+            'jp': 'Enhance Art',
+        },
+		'Quick Shoot': 
+		{
+            'na': 'Swift Shot',
+            'jp': 'Quick Shoot',
+        },
+		'voltage': 
+		{
+            'na': 'volt',
+            'jp': 'voltage',
+        },
+		'Voltage Reset Heal': 
+		{
+            'na': 'Volt Reset Heal',
+            'jp': 'Voltage Reset Heal',
+        },
+		'Slug Scatter': 
+		{
+            'na': 'Scatterslug',
+            'jp': 'Slug Scatter',
+        },
 		'techter': 
 		{
             'na': 'techter',
